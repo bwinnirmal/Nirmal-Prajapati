@@ -1,389 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nirmal Prajapati's Portfolio</title>
-    <link rel="stylesheet" href="./assets/app.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nirmal Prajapati is a Front-end Developer and Hosting Entrepreneur building fast, user-focused digital products."
     />
-    <script
-      src="https://kit.fontawesome.com/734f88d719.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>Nirmal Prajapati • Front-end Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/app.css" />
   </head>
   <body>
-    <div class="bg-hero"></div>
-    <div class="container-fluid hero mb-5">
-      <div class="row g-0 gap-2 justify-content-center">
-        <div class="wrapper hero-left col-12 col-md-3 shadow rounded-3 p-3">
-          <div class="image">
-            <img src="./assets/img/nirmal.jpg" alt="" srcset="" />
-          </div>
-          <h1 class="name text-center">Nirmal Prajapati</h1>
-          <p class="text-center">Front-end Developer • Ahmedabad, India</p>
-          <p class="text-center">
-            I'm a self-taught developer, who likes to create interesting
-            projects that can help people do their chores more easily and fast.
+    <div class="page-bg" aria-hidden="true"></div>
+    <main class="portfolio-layout">
+      <aside class="profile-panel glass-panel" aria-label="Profile summary">
+        <div class="avatar-ring">
+          <img
+            src="./assets/img/nirmal.jpg"
+            alt="Portrait of Nirmal Prajapati"
+            loading="eager"
+            width="180"
+            height="180"
+          />
+        </div>
+
+        <div class="profile-copy">
+          <p class="eyebrow">Available for freelance projects</p>
+          <h1>Nirmal Prajapati</h1>
+          <p class="role">Front-end Developer • HostRainbow Entrepreneur</p>
+          <p class="bio">
+            I design and ship clean, performant web experiences that help
+            businesses grow online with confidence.
           </p>
-          <!-- social media accounts start -->
-          <div class="socialAccounts d-flex gap-3 justify-content-center mt-4">
-            <div class="github">
-              <a href="https://github.com/bwinnirmal"
-                ><i class="fa-brands fa-github fa-2xl"></i
-              ></a>
-            </div>
-            <div class="linkedIn">
-              <a href="https://www.linkedin.com/in/bwinnirmal/"
-                ><i class="fa-brands fa-linkedin fa-2xl"></i
-              ></a>
-            </div>
-            <div class="whatsApp">
-              <a
-                href="https://api.whatsapp.com/send/?phone=%2B918000999345&text=Hello&type=phone_number"
-                ><i class="fa-brands fa-whatsapp fa-2xl"></i
-              ></a>
-            </div>
-            <div class="instagram">
-              <a href="https://instagram.com/bwinnirmal"
-                ><i class="fa-brands fa-instagram fa-2xl"></i
-              ></a>
-            </div>
-            <div class="telegram">
-              <a href="https://telegram.dog/@bwinnirmal"
-                ><i class="fa-brands fa-telegram fa-2xl"></i
-              ></a>
-            </div>
+          <div class="profile-highlights" aria-label="Professional highlights">
+            <span>Ahmedabad, India</span>
+            <span>Open to Remote</span>
+            <span>Fast Delivery</span>
           </div>
-          <!-- social media accounts end -->
-          <!-- resume section start  -->
-          <div class="resumeDownload mt-5">
-            <a
-              class="btn btn-success w-100"
-              href="./assets/Resume_Nirmal_Prajapati.pdf"
-              download
-              >Download Resume</a
-            >
-          </div>
-          <!-- resume section end -->
         </div>
-        <div class="description-right col-12 col-md-7 shadow rounded-3 p-3">
-          <div class="tabs bg-body shadow rounded-3 p-3">
-            <ul class="nav nav-pills tab-title col-12">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  id="projects-tab"
-                  href="javascript:void(0)"
-                  onclick="showSection('projects')"
-                  >Projects</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  id="experience-tab"
-                  href="javascript:void(0)"
-                  onclick="showSection('experience')"
-                  >Experience</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  id="education-tab"
-                  href="javascript:void(0)"
-                  onclick="showSection('education')"
-                  >Education</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  id="contact-tab"
-                  href="javascript:void(0)"
-                  onclick="showSection('contact')"
-                  >Contact</a
-                >
-              </li>
-            </ul>
+
+        <div class="social-links" aria-label="Social links">
+          <a href="https://github.com/bwinnirmal" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/bwinnirmal/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=%2B918000999345&text=Hello&type=phone_number" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp chat">
+            <span>WhatsApp</span>
+          </a>
+          <a href="https://instagram.com/bwinnirmal" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile">
+            <span>Instagram</span>
+          </a>
+          <a href="https://telegram.dog/@bwinnirmal" target="_blank" rel="noopener noreferrer" aria-label="Telegram profile">
+            <span>Telegram</span>
+          </a>
+        </div>
+
+        <a class="resume-btn" href="./assets/Resume_Nirmal_Prajapati.pdf" download>
+          Download Resume
+        </a>
+      </aside>
+
+      <section class="content-panel glass-panel" aria-label="Portfolio content">
+        <nav class="tabs" aria-label="Portfolio sections" role="tablist">
+          <button class="tab-link active" data-section="projects">Projects</button>
+          <button class="tab-link" data-section="experience">Experience</button>
+          <button class="tab-link" data-section="education">Education</button>
+          <button class="tab-link" data-section="contact">Contact</button>
+        </nav>
+
+        <section id="projects-section" class="tab-section" aria-labelledby="projects-heading">
+          <div class="section-header">
+            <p class="section-tag">Selected Work</p>
+            <h2 id="projects-heading">Modern products, built for speed and usability.</h2>
           </div>
 
-          <!-- Projects Section -->
-          <div id="projects-section" class="section mt-4">
-            <div class="projects-div d-flex gap-2">
-              <!-- first project -->
-              <div class="card project-card" style="width: 18rem">
-                <img
-                  src="./assets/img/bmsClone.png"
-                  class="card-img-top"
-                  alt="Bookmyshow Clone"
-                  height="150px"
-                />
-                <div class="card-body project-card-body">
-                  <h5 class="card-title">
-                    <a
-                      class="text-decoration-none card-link"
-                      href="https://toolsbro.in/projects/bookmyshow_clone/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Bookmyshow Clone</a
-                    >
-                  </h5>
-                  <p class="card-text">
-                    Designed a front-end clone of BookMyShow, featuring a
-                    homepage and movie details page. Implemented a fake booking
-                    system to simulate ticket reservations, focusing on
-                    responsive design and user-friendly layout.
-                  </p>
-                </div>
-              </div>
-              <!-- first project end  -->
-              <!-- second project start  -->
-              <div class="card project-card" style="width: 18rem">
-                <img
-                  src="./assets/img/toolsbro.png"
-                  class="card-img-top"
-                  alt="Bookmyshow Clone"
-                  height="150px"
-                />
-                <div class="card-body project-card-body">
-                  <h5 class="card-title">
-                    <a
-                      class="text-decoration-none card-link"
-                      href="https://toolsbro.in/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >ToolsBro - All-in-One Web Tools Directory</a
-                    >
-                  </h5>
-                  <p class="card-text">
-                    Created a comprehensive web-based tool directory featuring
-                    everyday utilities like cash and discount calculators, QR
-                    code generators, text-to-speech, and more. ToolsBro provides
-                    a simple, user-friendly interface with over 15 tools for a
-                    variety of tasks, offering quick and efficient solutions for
-                    users' daily needs.
-                  </p>
-                </div>
-              </div>
-              <!-- second project end  -->
-              <!-- third project start -->
-              <div class="card project-card" style="width: 18rem">
-                <img
-                  src="./assets/img/hostrainbowWP.png"
-                  class="card-img-top"
-                  alt="Bookmyshow Clone"
-                  height="150px"
-                />
-                <div class="card-body project-card-body">
-                  <h5 class="card-title">
-                    <a
-                      class="text-decoration-none card-link"
-                      href="https://hostrainbow.in/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >HostRainbow - Web Hosting Platform</a
-                    >
-                  </h5>
-                  <p class="card-text">
-                    Operating HostRainbow as a reseller business, offering
-                    affordable web hosting solutions. While using a ready-made
-                    design, I manage the platform to provide reliable hosting
-                    services and improve my Linux system administration skills
-                    through hands-on experience. The project allows me to grow
-                    my business while deepening my knowledge of server
-                    management and hosting environments.
-                  </p>
-                </div>
-              </div>
-              <!-- third project end -->
-
-               <!-- forth project start -->
-              <div class="card project-card" style="width: 18rem">
-                <img
-                  src="./assets/img/bhashaTyping.in.png"
-                  class="card-img-top"
-                  alt="BhashaTyping – Multilingual Typing Tool"
-                  height="150px"
-                />
-                <div class="card-body project-card-body">
-                  <h5 class="card-title">
-                    <a
-                      class="text-decoration-none card-link"
-                      href="https://hostrainbow.in/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >BhashaTyping – Free Online Indian Language Typing Tool</a
-                    >
-                  </h5>
-                  <p class="card-text">
-                    Built BhashaTyping, a fast and user-friendly web application that allows users to type in multiple Indian languages using English transliteration. The platform focuses on speed, accuracy, and accessibility, enabling seamless regional content creation without requiring software installation. Optimized for performance, search visibility, and cross-device compatibility.
-                  </p>
-                </div>
-              </div>
-              <!-- forth project end -->
-              <!-- Add more project cards here -->
-            </div>
-          </div>
-
-          <!-- Experience Section -->
-          <div id="experience-section" class="section mt-4 d-none">
-            <div class="container my-5">
-              <h2 class="text-center mb-4">Professional Experience</h2>
-
-              <!-- Freelance Developer Card -->
-              <div class="card mb-3 experience-card shadow">
-                <div class="card-body">
-                  <h5 class="card-title">Freelance Front-End Developer</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Ongoing</h6>
-                  <ul>
-                    <li>Designed and developed responsive websites</li>
-                    <li>
-                      Customized solutions for clients using HTML, CSS, and
-                      JavaScript
-                    </li>
-                    <li>Focused on creating user-friendly interfaces</li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- HostRainbow Manager Card -->
-              <div class="card mb-3 experience-card shadow">
-                <div class="card-body">
-                  <h5 class="card-title">HostRainbow Manager</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Ongoing</h6>
-                  <ul>
-                    <li>Managing hosting services as a reseller</li>
-                    <li>Gained expertise in Linux system management</li>
-                    <li>
-                      Providing reliable and affordable hosting for clients
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Education Section -->
-          <div id="education-section" class="section mt-4 d-none">
-            <div class="container my-5">
-              <h2 class="text-center mb-4">Education</h2>
-
-              <!-- 12th Grade Education -->
-              <div class="card mb-3 education-card shadow">
-                <div class="card-body">
-                  <h5 class="card-title">12th Grade</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">
-                    2015 - Completed
-                  </h6>
-                  <p>Completed higher secondary education in 2015.</p>
-                </div>
-              </div>
-
-              <!-- Self-Learning Period -->
-              <div class="card mb-3 education-card shadow">
-                <div class="card-body">
-                  <h5 class="card-title">Self-Learning (2015 - 2021)</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">2015 - 2021</h6>
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="./assets/img/hostrainbowWP.png" alt="HostRainbow web hosting platform preview" loading="lazy" width="500" height="300" />
+              <div class="project-card__body">
+                <div>
+                  <p class="project-label">Flagship Project</p>
+                  <h3>HostRainbow</h3>
                   <p>
-                    Learned various programming languages and web technologies
-                    through online courses, including HTML, CSS, JavaScript, and
-                    more.
+                    Built and operate a hosting business focused on performance,
+                    trust, and affordable plans. I manage delivery, customer
+                    experience, and technical reliability end-to-end.
                   </p>
                 </div>
+                <div class="badges" aria-label="Technologies used">
+                  <span>Hosting</span><span>Linux</span><span>Business Ops</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://hostrainbow.in/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="secondary" href="https://hostrainbow.in/about-us/" target="_blank" rel="noopener noreferrer">About Brand</a>
+                </div>
               </div>
+            </article>
 
-              <!-- Web Design Course -->
-              <div class="card mb-3 education-card shadow">
-                <div class="card-body">
-                  <h5 class="card-title">Web Design (Front-End)</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">
-                    2021 - Tops Institute
-                  </h6>
+            <article class="project-card">
+              <img src="./assets/img/bhashaTyping.in.png" alt="BhashaTyping multilingual typing tool preview" loading="lazy" width="500" height="300" />
+              <div class="project-card__body">
+                <div>
+                  <p class="project-label">Multilingual Focus</p>
+                  <h3>BhashaTyping</h3>
                   <p>
-                    Completed a formal course in web design, focusing on
-                    front-end development, including HTML, CSS, JavaScript,
-                    Bootstrap and responsive design principles.
+                    Developed a fast transliteration-based typing experience for
+                    Indian languages, optimized for accessibility, speed, and
+                    cross-device usage.
                   </p>
                 </div>
+                <div class="badges" aria-label="Technologies used">
+                  <span>JavaScript</span><span>Transliteration</span><span>SEO</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://bhashatyping.in/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="secondary" href="https://bhashatyping.in/" target="_blank" rel="noopener noreferrer">Multilingual Tool</a>
+                </div>
               </div>
-            </div>
+            </article>
+
+            <article class="project-card">
+              <img src="./assets/img/toolsbro.png" alt="ToolsBro utilities website preview" loading="lazy" width="500" height="300" />
+              <div class="project-card__body">
+                <div>
+                  <h3>ToolsBro</h3>
+                  <p>
+                    All-in-one web utility directory with practical tools such
+                    as calculators, converters, and productivity helpers.
+                  </p>
+                </div>
+                <div class="badges" aria-label="Technologies used">
+                  <span>HTML/CSS</span><span>Vanilla JS</span><span>Utility Tools</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://toolsbro.in/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="./assets/img/bmsClone.png" alt="BookMyShow clone project preview" loading="lazy" width="500" height="300" />
+              <div class="project-card__body">
+                <div>
+                  <h3>BookMyShow Clone</h3>
+                  <p>
+                    Front-end concept with movie discovery and a simulated
+                    booking flow, designed with responsive UI principles.
+                  </p>
+                </div>
+                <div class="badges" aria-label="Technologies used">
+                  <span>Responsive UI</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://toolsbro.in/projects/bookmyshow_clone/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience-section" class="tab-section is-hidden" aria-labelledby="experience-heading">
+          <div class="section-header">
+            <p class="section-tag">Career Snapshot</p>
+            <h2 id="experience-heading">Professional Experience</h2>
           </div>
 
-          <!-- Contact Section -->
-          <div id="contact-section" class="section mt-4 d-none">
-            <div class="container my-5">
-              <h3 class="text-center">Contact</h3>
-              <div
-                class="contactWrapper bg-body p-3 shadow rounded-3 text-dark"
-              >
-                <form action="https://formspree.io/f/xyyolkve" method="post">
-                  <label class="form-label" for="name">Name:</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="name"
-                    id="pName"
-                    placeholder="Enter Your Name"
-                  />
+          <div class="timeline">
+            <article class="info-card">
+              <h3>Freelance Front-End Developer</h3>
+              <p class="meta">Ongoing</p>
+              <ul>
+                <li>Designed and developed responsive websites for small businesses.</li>
+                <li>Delivered custom front-end solutions using HTML, CSS, and JavaScript.</li>
+                <li>Improved usability with clean, conversion-focused interfaces.</li>
+              </ul>
+            </article>
 
-                  <label class="form-label mt-3" for="email">Email:</label>
-                  <input
-                    class="form-control"
-                    type="email"
-                    name="email"
-                    id="pEmail"
-                    placeholder="Your Email"
-                    required
-                  />
+            <article class="info-card">
+              <h3>HostRainbow Manager</h3>
+              <p class="meta">Ongoing</p>
+              <ul>
+                <li>Manage hosting services and customer support operations.</li>
+                <li>Built practical experience in Linux and server administration.</li>
+                <li>Maintain reliable and affordable hosting for clients.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
 
-                  <label class="mt-3 form-label" for="message">Message:</label>
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    id="pMessage"
-                    cols="20"
-                    rows="5"
-                    placeholder="Your Message"
-                    required
-                  ></textarea>
+        <section id="education-section" class="tab-section is-hidden" aria-labelledby="education-heading">
+          <div class="section-header">
+            <p class="section-tag">Learning Journey</p>
+            <h2 id="education-heading">Education</h2>
+          </div>
 
-                  <button
-                    class="btn btn-primary mt-3 w-100 fw-bold"
-                    type="submit"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </div>
-              <p class="alert alert-primary mt-5">
-                Schedule a Meeting?
-                <br />
-                <br />
-                <a
-                  class="text-decoration-none"
-                  href="https://calendly.com/bwinnirmal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Click Here To Schedule a meeting</a
-                >
+          <div class="timeline">
+            <article class="info-card">
+              <h3>12th Grade</h3>
+              <p class="meta">2015 • Completed</p>
+              <p>Completed higher secondary education in 2015.</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Self-Learning</h3>
+              <p class="meta">2015 – 2021</p>
+              <p>
+                Learned web technologies through online resources with a focus on
+                HTML, CSS, JavaScript, and practical project building.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </article>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+            <article class="info-card">
+              <h3>Web Design (Front-End)</h3>
+              <p class="meta">2021 • Tops Institute</p>
+              <p>
+                Completed formal front-end training in UI development,
+                responsiveness, and web fundamentals.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact-section" class="tab-section is-hidden" aria-labelledby="contact-heading">
+          <div class="section-header">
+            <p class="section-tag">Let's Build Together</p>
+            <h2 id="contact-heading">Contact</h2>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form info-card" action="https://formspree.io/f/xyyolkve" method="post">
+              <label for="pName">Name</label>
+              <input id="pName" name="name" type="text" placeholder="Enter your name" required />
+
+              <label for="pEmail">Email</label>
+              <input id="pEmail" name="email" type="email" placeholder="Your email" required />
+
+              <label for="pMessage">Message</label>
+              <textarea id="pMessage" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+
+            <article class="info-card meeting-card">
+              <h3>Prefer a call?</h3>
+              <p>
+                Schedule a quick meeting and let's discuss your project,
+                timeline, and goals.
+              </p>
+              <a href="https://calendly.com/bwinnirmal" target="_blank" rel="noopener noreferrer">Book on Calendly</a>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
     <script src="./assets/app.js"></script>
   </body>
 </html>
